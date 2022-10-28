@@ -121,10 +121,10 @@ function generatePassword() {
 
   //password generator for loop with randomized index values
   var randomizedPW = [];
-
+// for loop selecting random characters from the selected chars string according to the pwlength
   for (var i = 0; i < pwLength; i++) {
     var randomPicks = Math.floor(Math.random() * selectedChars.length);
-
+// concatenating the randomized random picks array into the new randomizedpw array
     randomizedPW = randomizedPW.concat(selectedChars[randomPicks]);
   }
   //logs the randomized pw array

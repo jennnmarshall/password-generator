@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* dictates styling for the page, including margins and height */
 html,
 body,
 .wrapper {
@@ -17,6 +18,7 @@ body {
   background-color: #f9fbfd;
 }
 
+/* dictates formatting for the div containing the password gen box */
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
@@ -30,6 +32,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/* styles the card containing the password gen */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -72,6 +75,7 @@ header {
   clear: both;
 }
 
+/* styles the generate password button */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -97,6 +101,7 @@ button[disabled] {
   float: right;
 }
 
+/* styles inner box containing generated password */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -118,6 +123,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* resizes button and text for smaller displays */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -130,6 +136,7 @@ button[disabled] {
   }
 }
 
+/* resizes button and text for even smaller displays */
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
